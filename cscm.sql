@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 26, 2022 at 02:07 PM
+-- Generation Time: Oct 27, 2022 at 06:39 PM
 -- Server version: 10.4.24-MariaDB
 -- PHP Version: 7.4.29
 
@@ -85,7 +85,8 @@ CREATE TABLE `cscm_users` (
 --
 
 INSERT INTO `cscm_users` (`user_id`, `user_name`, `user_password`, `user_rname`, `user_rnameth`, `user_lname`, `user_lnameth`, `user_DoB`, `user_address`, `user_blood`, `user_gender`, `user_phone`, `user_email`, `major_id`, `user_auth`, `user_image`, `user_year`) VALUES
-(630078, '', 0x7cbc118601da75476658a8f1a1a015fa, 'Nopparat', 'นพรัตน์', 'Munsuwan', 'มั่นสุวรรณ', '0000-00-00', '', 'AB', 'Male', '0995960320', 's630078301@cpu.ac.th', 301, 'Student', NULL, 3);
+(590010, 'Pooree', 0x0049b77040d97b6ed6baaa80d6dd3af5, 'Pooree', 'ภูรี', 'Menkool', 'เมนกูล', '0000-00-00', '', '', 'Male', '0926555', '', 301, 'Teacher', NULL, NULL),
+(630078, 'Nopparat', 0x7cbc118601da75476658a8f1a1a015fa, 'Nopparat', 'นพรัตน์', 'Munsuwan', 'มั่นสุวรรณ', '0000-00-00', '', 'AB', 'Male', '0995960320', 's630078301@cpu.ac.th', 301, 'Student', '', 3);
 
 --
 -- Indexes for dumped tables
